@@ -5,5 +5,5 @@ doneBtn.addEventListener('click',function(){
     window.location.href = 'page3.html'
 })
 backBtn.addEventListener('click',function(){
-    window.location.href = 'hompage.html'
+    window.location.href = 'index.html'
 })
