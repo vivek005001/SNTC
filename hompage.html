@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+
+</head>
+<body>
+    <div class="bg">
+        <div id="header">
+            <div id="logo"><img src="Foodly Fit.jpg" alt=""></div>
+            <button id="login">Login</button>
+            <button id="SignUp">SignUp</button>
+        </div>
+        <div id='mainTitle'><h1>Welcome To Foodly Fit</h1></div>
+        
+        <div id="loginDiv">
+            <button id="crossLogin">X</button>
+                <div id="innerloginDiv">
+                
+                <p id="login_info">Log in to your account</p>
+                <button class="loginBy forms" id="google_login">Login with Google</button>
+                <button class="loginBy forms">Login with Facebook</button>
+                <button class="loginBy forms">Login with Apple</button>
+                <input type="text" class="login-text forms" id="mail-login" placeholder="Email">
+                <input type="text" class="login-text forms"  id='pass-login' placeholder="Password">
+                <button id="loginMain" class="forms link">Login</button>
+                <div id="forgotLogin">or
+                <a href="#forgotPass" class='link' id="forgotLoginPass">ForgotPassword</a>
+                <hr id="line">
+                </div>
+                <div id="redirect-signup">Don't have an account? <a href="#"  class='link' id="doSignUp">Sign Up</a></div>
+            </div>
+        </div>
+
+
+
+        <!-- SignUp -->
+
+        <div id="signUpDiv">
+            <button id="crossSignUp">X</button>
+                <div id="innerloginDiv">
+                
+                <p id="login_info">Create an Account</p>
+                <!-- <button class="loginBy forms" id="google_login">Login with Google</button>
+                <button class="loginBy forms">Login with Facebook</button>
+                <button class="loginBy forms">Login with Apple</button> -->
+                <input type="text" class="login-text forms" id="login_signUp" placeholder="Full Name">
+                <input type="text" class="login-text forms"  id='mail-signUp' placeholder="Email">
+                <input type="text" class="login-text forms" id="pass-signUp" placeholder="Password">
+                <div class="login-text forms" id="offers"><input type="checkbox" id="tnc" name="tnc">
+                <label for="tnc">Send me special offers, personalized recommendations, and learning tips.</div></label><br>
+                <button id="signUpMain" class="forms link">SignUp</button>
+                
+                <div id="forgotLogin">By signing up, you agree to our <a href="#TnC" class="link" id="forgotLoginPass">Terms of Use</a>  <a href="#PP" class="link" id="forgotLoginPass">and Privacy Policy</a>
+                <hr id="line">
+                </div>
+                <div id="redirect-signup">Already have an account? <a  class='link' id="doLogin">Log in</a></div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <script src="homepage.js"></script>
+    
+</body>
+</html>
